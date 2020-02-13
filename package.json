@@ -1,0 +1,32 @@
+{
+  "name": "fsmessenger",
+  "version": "0.1.0",
+  "description": "testing api",
+  "main": "index.js",
+  "scripts": {
+    "commit-all": "git add . && git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kalinnikov2n/FsMessenger.git"
+  },
+  "keywords": [
+    "fb",
+    "chatbot"
+  ],
+  "author": "kalinnikov2n",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kalinnikov2n/FsMessenger/issues"
+  },
+  "homepage": "https://github.com/Kalinnikov2n/FsMessenger#readme",
+  "dependencies": {
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
